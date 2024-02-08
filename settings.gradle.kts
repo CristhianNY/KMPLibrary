@@ -17,5 +17,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "GoogleSingKMP"
-include(":shared")
-include(":exampleApp")
+include(":library")
+include(":composeApp")
