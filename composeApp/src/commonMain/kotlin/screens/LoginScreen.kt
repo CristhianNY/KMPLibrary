@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.arkivanov.decompose.extensions.compose.jetbrains.subscribeAsState
+import com.cristhianbonilla.googlesingkmp.CommonButton
 import navigation.ScreenLoginComponent
 import navigation.ScreenLoginEvent
 
@@ -32,10 +33,8 @@ fun LoginScreen(component: ScreenLoginComponent) {
             modifier = Modifier.fillMaxWidth().padding(16.dp)
         )
 
-        Button(onClick = {
+        CommonButton(onClick = {
             component.onEvent(ScreenLoginEvent.ClickButtonLogin)
-        }) {
-            Text("Login")
-        }
+        })
     }
 }

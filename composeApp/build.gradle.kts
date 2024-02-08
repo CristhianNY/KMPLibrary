@@ -42,6 +42,7 @@ kotlin {
 
         }
         commonMain.dependencies {
+            implementation(project(":library"))
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material)
