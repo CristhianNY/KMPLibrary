@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "257211392405",
+    "project_id": "fitnesscoach-8b65e",
+    "storage_bucket": "fitnesscoach-8b65e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257211392405:android:fc286fe37c2e65b32bd69c",
+        "android_client_info": {
+          "package_name": "com.cristhian.bonilla.KMPExample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3GCsDl_yyJErRC9q8Uik8BohTcckUR3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
